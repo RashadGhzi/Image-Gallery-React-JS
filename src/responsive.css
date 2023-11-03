@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1400px) {
+  .img-item {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .img-item {
+    height: 160px;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .img-item {
+    height: 140px;
+  }
+  .image-add-label span {
+    display: none;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media only screen and (max-width: 640px) {
+  .img-item {
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .img-item {
+    height: 80px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .img-item {
+    height: 60px;
+  }
+}
